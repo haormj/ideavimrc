@@ -56,6 +56,21 @@ vnoremap <C-w> :action $Cut<CR>
 
 " cursor in middle of screen
 nnoremap <C-l> :action EditorScrollToCenter<CR>
-vnoremap <C-l> :action EditorScrollToCenter<CR>
-inoremap <C-l> <Esc> :action EditorScrollToCenter<CR>i
+vnoremap <C-l> <Esc>:action EditorScrollToCenter<CR>
+inoremap <C-l> <Esc>:action EditorScrollToCenter<CR>i
 
+" Jump to lately visited location
+nnoremap <C-o> :action Back<CR>
+vnoremap <C-o> <Esc>:action Back<CR>
+
+" Close window
+nnoremap <leader>wd    :action CloseAllEditors<CR>
+vnoremap <leader>wd    <Esc>:action CloseAllEditors<CR>
+
+" Execute an action. Like <M-x>
+nnoremap <leader><Space>    :action GotoAction<CR>
+vnoremap <leader><Space>    :action GotoAction<CR>
+
+" Split window right
+nnoremap <leader>w/    :action SplitVertically<CR>
+vnoremap <leader>w/    <Esc>:action SplitVertically<CR>
