@@ -74,3 +74,19 @@ vnoremap <leader><Space>    :action GotoAction<CR>
 " Split window right
 nnoremap <leader>w/    :action SplitVertically<CR>
 vnoremap <leader>w/    <Esc>:action SplitVertically<CR>
+
+" 全部展开
+nnoremap zr :action ExpandAllRegions<CR>
+vnoremap zr :action ExpandAllRegions<CR>
+
+" 全部折叠
+nnoremap zm :action CollapseAllRegions<CR>
+vnoremap zm :action CollapseAllRegions<CR>
+
+" 展开
+nnoremap zo :action ExpandRegion<CR>
+vnoremap zo :action ExpandRegion<CR>
+
+" 折叠
+nnoremap zc :action CollapseRegion<CR>
+vnoremap zc :action CollapseRegion<CR>
