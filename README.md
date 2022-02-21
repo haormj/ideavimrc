@@ -25,4 +25,4 @@
 
 ### 小技巧
 
-- ide中默认markdown是未开启mermaid模式，可以参考[文档](https://www.jetbrains.com/help/idea/markdown.html#diagrams)开启
+- 默认markdown是未开启mermaid模式，可以参考[文档](https://www.jetbrains.com/help/idea/markdown.html#diagrams)开启
