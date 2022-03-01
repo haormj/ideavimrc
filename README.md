@@ -25,4 +25,5 @@
 
 ### 小技巧
 
+- 为了将编辑器的快捷键修改为你喜欢的样式，首先你需要知道编辑器具体的action，我个人是会安装vim插件，输入`:actionlist`会返回当前编辑器中所有的命令，这样你就可以随意定义快捷键了，在本仓库的目录下个人也保存了一份
 - 默认markdown是未开启mermaid模式，可以参考[文档](https://www.jetbrains.com/help/idea/markdown.html#diagrams)开启
