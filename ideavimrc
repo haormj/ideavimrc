@@ -90,3 +90,13 @@ vnoremap zo :action ExpandRegion<CR>
 " 折叠
 nnoremap zc :action CollapseRegion<CR>
 vnoremap zc :action CollapseRegion<CR>
+
+" 当前行向下移动一行
+nnoremap <A-j> :action MoveLineDown<CR>
+vnoremap <A-j> :action MoveLineDown<CR>
+inoremap <A-j> <Esc>:action MoveLineDown<CR>i
+
+" 当前行向上移动一行
+nnoremap <A-k> :action MoveLineUp<CR>
+vnoremap <A-k> :action MoveLineUp<CR>
+inoremap <A-k> <Esc>:action MoveLineUp<CR>i
