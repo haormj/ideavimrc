@@ -22,3 +22,7 @@
 - C-f：我个人习惯是前进一个字符，将Editor Actions -> Right 增加 C-f 快捷键
 - C-o：个人习惯是回到上一个位置，将编辑器使用的快捷键去除掉
 - C-l：个人习惯是将当前鼠标位置内容移动到屏幕中间
+
+### 小技巧
+
+- 默认markdown是未开启mermaid模式，可以参考[文档](https://www.jetbrains.com/help/idea/markdown.html#diagrams)开启
